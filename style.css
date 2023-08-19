@@ -67,8 +67,7 @@ form {
     box-sizing: border-box;  
 }   
 input,label{ 
-    width:95%;
-    margin-left: 20px;
+    width:95%; 
 }
 #books,
 #rg {
