@@ -1,13 +1,20 @@
- 
 body {
-    background-color: #ededed;
+  background-image: url("https://images.unsplash.com/photo-1463320726281-696a485928c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3N0b3JlfGVufDB8fDB8fHww&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+
   margin: 0;
   padding: 0;
 }
 
 #nav-bar {
-  background-color: black;
+  background-image: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=360");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
+  font-family: "FontName", sans-serif;
+  font-weight: 400;
   height: 60px;
   position: sticky;
   top: 0px;
@@ -35,45 +42,49 @@ span {
   gap: 40px;
 }
 table {
-    border-collapse: collapse;  
-    border: 1px solid black; 
+  border-collapse: collapse;
+  border: 1px solid black;
 }
 
-th, td {
-    border: 1px solid black;  
-    padding: 8px;  
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
 }
 caption {
-    margin-bottom: 10px;  
-    text-align: left;
-    color:blue;
-} 
-label {
-    font-weight: normal;
-    font-size: 16px;
-    margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: blue;
 }
-.page {  
-    background-color: white;
-    width: 800px;
-    margin: 0 auto;   
+label {
+  font-weight: normal;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.page {
+  background-color: #dfd7d6;
+  width: 800px;
+  margin: 0 auto;
 }
 
 form {
-    margin: 0;
-    padding: 0;  
-    text-align: left;
-    width: 100%; 
-    box-sizing: border-box;  
-}   
-input,label{ 
-    width:95%; 
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+input,
+label {
+  width: 95%;
 }
 #books,
 #rg {
-    padding-top: 80px;  
+  padding-top: 80px;
 }
-h1{
-    text-align: left;
-    margin-left: 55px;
+h1 {
+  font-family: "FontName", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 55px;
 }
