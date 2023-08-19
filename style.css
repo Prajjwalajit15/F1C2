@@ -1,0 +1,80 @@
+ 
+body {
+    background-color: #ededed;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar {
+  background-color: black;
+  color: white;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-bar > .p2 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#p1 {
+  width: 400px;
+  margin-right: 5px;
+  padding-left: 40px;
+}
+
+span {
+  display: flex;
+  gap: 40px;
+}
+table {
+    border-collapse: collapse;  
+    border: 1px solid black; 
+}
+
+th, td {
+    border: 1px solid black;  
+    padding: 8px;  
+}
+caption {
+    margin-bottom: 10px;  
+    text-align: left;
+    color:blue;
+} 
+label {
+    font-weight: normal;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.page {  
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;   
+}
+
+form {
+    margin: 0;
+    padding: 0;  
+    text-align: left;
+    width: 100%; 
+    box-sizing: border-box;  
+}   
+input,label{ 
+    width:95%;
+    margin-left: 20px;
+}
+#books,
+#rg {
+    padding-top: 80px;  
+}
+h1{
+    text-align: left;
+    margin-left: 55px;
+}

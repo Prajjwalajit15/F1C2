@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div id="nav-bar">
+      <p id="p1" class="p2">Library System</p>
+      <span>
+        <p class="p2"><a href="#books">Books</a></p>
+        <p class="p2"><a href="#rg">Register</a></p>
+        <p class="p2"><a href="#">Contact Us</a></p>
+        <p class="p2" style="padding-right: 40px">Logout</p>
+      </span>
+    </div>
+    <!--Books table -->
+    <center>
+      <div class="page">
+         
+        <h1  id="books">Books</h1>
+        <table border="1">
+          <!-- r1 -->
+          <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+          </tr>
+          <!-- r2 -->
+          <tr>
+            <td>1</td>
+            <td>
+              <table border="1">
+                <caption>
+                  <u>The Great Gatsby</u>
+                </caption>
+                <tr>
+                  <td>Publication Date: 1925</td>
+                </tr>
+                <tr>
+                  <td>Page Count: 180</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 978-0-7432-7356-5</td>
+                </tr>
+              </table>
+            </td>
+            <td>F. Scott Fitzgerald</td>
+            <td>Classic Literature</td>
+            <td>Available</td>
+          </tr>
+          <!-- r3 -->
+          <tr>
+            <td>2</td>
+            <td>
+              <table border="1">
+                <caption>
+                  <u>The Great Gatsby</u>
+                </caption>
+                <tr>
+                  <td>Publication Date: 1960</td>
+                </tr>
+                <tr>
+                  <td>Page Count: 324</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 978-0-06-112008-4</td>
+                </tr>
+              </table>
+            </td>
+            <td>Harper Lee</td>
+            <td>Fiction, Coming-of-Age</td>
+            <td>Checked Out</td>
+          </tr>
+          <!-- r4 -->
+          <tr>
+            <td>3</td>
+            <td>
+              <table border="1">
+                <caption>
+                  <u>Harry Potter and the Sorcerer's Stone</u>
+                </caption>
+                <tr>
+                  <td>PPublication Date: 1997</td>
+                </tr>
+                <tr>
+                  <td>Page Count: 309</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 978-0-545-01022-3</td>
+                </tr>
+              </table>
+            </td>
+            <td>J.K. Rowling</td>
+            <td>Fantasy, Young Adult</td>
+            <td>Available</td>
+          </tr>
+        </table>
+      </div>
+    </center>
+    <!-- register -->
+    <center>
+      <div class="page" id="page1">
+        <h1 id="rg">Register<h1>
+          <form action="/register" method="post">
+            <label   for="first-name">First Name:</label><br>
+            <input  type="text" id="first-name" name="first-name" placeholder="Enter your first name" required><br>
+            
+            <label   for="last-name">Last Name:</label><br>
+            <input   type="text" id="last-name" name="last-name" placeholder="Enter your last name" required><br>
+            
+            <label   for="dob">Date of Birth:</label><br>
+            <input   type="date" id="dob" name="dob" required><br>
+            
+            <label   for="age">Age:</label><br>
+            <input   type="number" id="age" name="age" min="5" max="100" placeholder="Enter your age" required><br>
+            
+            <label   for="email">Email:</label><br>
+            <input  type="email" id="email" name="email" placeholder="Enter your email" required><br>
+            
+            <label   for="password">Password:</label><br>
+            <input  type="password" id="password" name="password" placeholder="Enter your password" required><br>
+            
+            <label  for="confirm-password">Confirm Password:</label><br>
+            <input    type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required><br>
+            
+            <input  type="submit" value="Register" style="background-color: black; color: white;"><br>
+        </form>
+        
+      </div>
+    </center>
+  </body>
+</html>
