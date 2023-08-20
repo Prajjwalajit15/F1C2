@@ -88,3 +88,26 @@ h1 {
   text-align: left;
   margin-left: 55px;
 }
+
+/* Other CSS styles */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Adjust styles for tablets and smaller screens */
+  /* Example: */
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  /* Adjust other styles as needed */
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for mobile phones */
+  /* Example: */
+  h1 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  /* Adjust other styles as needed */
+}
